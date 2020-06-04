@@ -1,0 +1,42 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add webpack webpack-cli -D
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Андрій\bin;C:\Python27;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\ProgramData\chocolatey\bin;C:\Program Files\Symfony;C:\Program Files\nodejs;C:\Program Files (x86)\Yarn\bin;C:\Program Files\Git\cmd;C:\Users\Андрій\AppData\Local\Microsoft\WindowsApps;C:\Users\Андрій\AppData\Roaming\Composer\vendor\bin;C:\Users\Андрій\AppData\Roaming\Composer\vendor\bin;C:\Program Files\JetBrains\PhpStorm 2019.1.2\bin;C:\Program Files\Sublime Text 3;C:\Users\Андрій\AppData\Roaming\npm;C:\Users\Андрій\AppData\Local\Yarn\bin;C:\Program Files\JetBrains\WebStorm 2020.1.1\bin;C:\Program Files (x86)\IMSIDesign\FloorPlan 3D v12\Program;C:\Program Files (x86)\IMSI\FloorPlan 3D v11\Program;C:\Users\Андрій\AppData\Local\Programs\Microsoft VS Code\bin
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  13.5.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: F:\mynew2020\package.json: Unexpected token } in JSON at position 255
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:310:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "mynew2020",
+    "version": "1.0.0",
+    "main": "webpack.config.js",
+    "repository": "https://github.com/AndrewOchych/excel.git",
+    "author": "AndrewOchych <ochychandrew@gmail.com>",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+      ""
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
